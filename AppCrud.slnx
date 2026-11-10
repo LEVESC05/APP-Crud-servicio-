@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AppCrud.Models/AppCrud.Models.csproj" Id="00fd7bde-6c4b-4895-a389-367464665119" />
+  <Project Path="AppCrud.Services/AppCrud.Services.csproj" Id="2052b86d-8ac2-49f2-988e-267998d5c903" />
+  <Project Path="AppCrud/AppCrud.csproj" />
+</Solution>

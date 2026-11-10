@@ -1,0 +1,17 @@
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.csproj.AssemblyReference.cache
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.AssemblyInfoInputs.cache
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.AssemblyInfo.cs
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.csproj.CoreCompileInputs.cache
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\bin\Debug\net10.0\AppCrud.Services.deps.json
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\bin\Debug\net10.0\AppCrud.Services.runtimeconfig.json
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\bin\Debug\net10.0\AppCrud.Services.dll
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\bin\Debug\net10.0\AppCrud.Services.pdb
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\bin\Debug\net10.0\AppCrud.Models.dll
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\bin\Debug\net10.0\AppCrud.Models.pdb
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud..21D8A73C.Up2Date
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.dll
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\refint\AppCrud.Services.dll
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.pdb
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\AppCrud.Services.genruntimeconfig.cache
+C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud.Services\obj\Debug\net10.0\ref\AppCrud.Services.dll

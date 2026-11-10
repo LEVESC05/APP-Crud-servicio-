@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+ @model List<AppCrud.Models.Empleado>;
+<h1>Lista de Empleados</h1>
+<a asp-controller="Empleado" asp-action="Nuevo" class="btn btn-success mb-3">Nuevo</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Fecha de contrato</th>
+            <th>Activo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.idEmpleado</td>
+                <td>@item.Nombre</td>
+                <td>@item.correo</td>
+                <td>@item.FechaContrato.ToString("yyyy-MM-dd")</td>
+                <td>@(item.Activo ? "Sí" : "No")</td>
+<td>
+                    <a asp-controller="Empleado" asp-action="Editar" 
+asp-route-id="@item.idEmpleado" class="btn btn-primary">Editar</a>
+
+                    <a asp-controller="Empleado" asp-action="Eliminar"                        
+                       asp-route-id="@item.idEmpleado" class="btn btn-primary" onclick= "return confirmar()" 
+style="background-color: red; border-color: red;">Eliminar</a>
+                </td>
+            </tr>
+            
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        function confirmar(idEmpleado) {
+            return confirm("¿Estas seguro de que deseas eliminar este empleado?")
+        }
+    </script>
+}

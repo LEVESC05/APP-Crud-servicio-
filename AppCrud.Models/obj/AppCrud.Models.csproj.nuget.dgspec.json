@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\AppCrud.Models.csproj": {}
+    "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj": {}
   },
   "projects": {
-    "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\AppCrud.Models.csproj": {
+    "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\AppCrud.Models.csproj",
+        "projectUniqueName": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj",
         "projectName": "AppCrud.Models",
-        "projectPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\AppCrud.Models.csproj",
+        "projectPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj",
         "packagesPath": "C:\\Users\\levig\\.nuget\\packages\\",
-        "outputPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\obj\\",
+        "outputPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\APPS SERVICIO SOCIAL\\AppCrud\\NuGet.Config",
+          "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\NuGet.Config",
           "C:\\Users\\levig\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

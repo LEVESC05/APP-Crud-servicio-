@@ -8,6 +8,7 @@ namespace AppCrud.Models
         public string Nombre { get; set; }
         public string correo { get; set; }
         public DateOnly FechaContrato { get; set; }
+        public string Clave{ get; set; }
         public bool Activo { get; set; }
     }
 }

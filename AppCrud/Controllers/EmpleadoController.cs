@@ -43,13 +43,18 @@ namespace AppCrud.Controllers
             await _appDBContext.SaveChangesAsync();
             return RedirectToAction(nameof(Lista));
         }
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Eliminar(int id)
         {
             Empleado empleado = await _appDBContext.Empleados.FirstAsync(e => e.idEmpleado == id);
             _appDBContext.Empleados.Remove(empleado);
             await _appDBContext.SaveChangesAsync();
             return RedirectToAction(nameof(Lista));
+        }
+        [HttpGet]
+        public async Task<IActionResult> CerrarSesion()
+        {
+            return RedirectToAction("Login", "Acceso");
         }
     }
 }

@@ -20,53 +20,57 @@ build_property.TargetFrameworkVersion = v10.0
 build_property.EntryPointFilePath = 
 build_property.RootNamespace = AppCrud
 build_property.RootNamespace = AppCrud
-build_property.ProjectDir = C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud\
+build_property.ProjectDir = C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\APPS SERVICIO SOCIAL\AppCrud\AppCrud
+build_property.MSBuildProjectDirectory = C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Empleado/Editar.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Acceso/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Empleado/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Empleado/Lista.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Empleado/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Empleado/Nuevo.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Empleado/Nuevo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cTnVldm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Home/Index.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Home/Privacy.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Shared/Error.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/_ViewImports.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/_ViewStart.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/APPS SERVICIO SOCIAL/AppCrud/AppCrud/Views/Shared/_Layout.cshtml]
+[C:/APPS SERVICIO SOCIAL/AppCrud/APP-Crud-servicio-/AppCrud/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hhi7esjczn

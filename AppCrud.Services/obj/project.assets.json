@@ -3745,17 +3745,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Services\\AppCrud.Services.csproj",
+      "projectUniqueName": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Services\\AppCrud.Services.csproj",
       "projectName": "AppCrud.Services",
-      "projectPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Services\\AppCrud.Services.csproj",
+      "projectPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Services\\AppCrud.Services.csproj",
       "packagesPath": "C:\\Users\\levig\\.nuget\\packages\\",
-      "outputPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Services\\obj\\",
+      "outputPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\APPS SERVICIO SOCIAL\\AppCrud\\NuGet.Config",
+        "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\NuGet.Config",
         "C:\\Users\\levig\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3773,8 +3773,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\AppCrud.Models.csproj": {
-              "projectPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\AppCrud.Models\\AppCrud.Models.csproj"
+            "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj": {
+              "projectPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj"
             }
           }
         }
@@ -3785,7 +3785,7 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "true",
+        "enableAudit": "false",
         "auditLevel": "low",
         "auditMode": "all"
       },
@@ -4104,27 +4104,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.11 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
-      "libraryId": "System.Security.Cryptography.Pkcs",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.11 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx",
-      "libraryId": "System.Security.Cryptography.Pkcs",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

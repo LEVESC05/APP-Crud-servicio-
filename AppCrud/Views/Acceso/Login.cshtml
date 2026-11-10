@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AppCrud.Models.Empleado
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="bg-light">
+    <form asp-controller="Acceso" asp-action="Login" method="post">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6 offset-sm-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="text-center mb-4">Iniciar Sesión</h2>
+
+                            <div class="mb-3">
+                                <label class="form-label">Correo electrónico</label>
+                                <input class="form-control" type="email" name="correo"/>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Contraseña</label>
+                                <input class="form-control" type="password" name="clave"/>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary w-100" type="submit">Ingresar</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

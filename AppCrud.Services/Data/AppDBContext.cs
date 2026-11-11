@@ -23,7 +23,7 @@ namespace AppCrud.Data
                 tb.Property(col => col.Nombre).IsRequired().HasMaxLength(100);
                 tb.Property(col => col.correo).IsRequired().HasMaxLength(50);
                 tb.Property(col => col.FechaContrato).IsRequired();
-                tb.Property(col => col.Clave).IsRequired().HasMaxLength(20);
+                tb.Property(col => col.Clave).IsRequired().HasMaxLength(250);
                 tb.Property(col => col.Activo).IsRequired();
             });
             modelBuilder.Entity<Empleado>().ToTable("Empleados");

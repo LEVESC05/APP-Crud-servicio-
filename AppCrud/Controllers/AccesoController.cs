@@ -2,7 +2,10 @@
 using AppCrud.Models;
 using AppCrud.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 namespace AppCrud.Controllers
+
 {
     public class AccesoController : Controller
     {
@@ -18,17 +21,27 @@ namespace AppCrud.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> Login(Empleado empleado)
-        {
-            Empleado empleadoEncontrado = await _appDBContext.Empleados.FirstOrDefaultAsync(e => e.correo == empleado.correo && e.Clave == empleado.Clave);
+        {           
+            Empleado empleadoEncontrado = await _appDBContext.Empleados.FirstOrDefaultAsync(e => e.correo == empleado.correo);
+
             if (empleadoEncontrado != null)
-            {
-                if (empleadoEncontrado.Activo)
-                {
-                    return RedirectToAction("Lista", "Empleado");
+            {        
+                var passwordHasher = new PasswordHasher<Empleado>();
+                var resultado = passwordHasher.VerifyHashedPassword(empleadoEncontrado, empleadoEncontrado.Clave, empleado.Clave);
+                if (resultado == PasswordVerificationResult.Success)
+                {           
+                    if (empleadoEncontrado.Activo)
+                    {
+                        return RedirectToAction("Lista", "Empleado");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, "El usuario no esta activo");
+                    }
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "El usuario no esta activo");
+                    ModelState.AddModelError(string.Empty, "Correo o contraseña incorrectos");
                 }
             }
             else
@@ -37,6 +50,5 @@ namespace AppCrud.Controllers
             }
             return View(empleado);
         }
-
     }
 }

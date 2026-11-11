@@ -2,6 +2,7 @@
 using AppCrud.Models;
 using AppCrud.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace AppCrud.Controllers
 {
@@ -26,6 +27,8 @@ namespace AppCrud.Controllers
         [HttpPost]
         public async Task<IActionResult> Nuevo(Empleado empleado)
         {
+            var passwordHasher = new PasswordHasher<Empleado>();
+            empleado.Clave = passwordHasher.HashPassword(empleado, empleado.Clave);
             await _appDBContext.Empleados.AddAsync(empleado);
             await _appDBContext.SaveChangesAsync();
             return RedirectToAction(nameof(Lista));

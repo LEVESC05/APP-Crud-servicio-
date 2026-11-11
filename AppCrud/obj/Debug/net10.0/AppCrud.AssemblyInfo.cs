@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+743a01a000859018a584e951a03633840a6afe23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a6b7fcd143194cc065c2742cfb71c8006832738")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCrud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

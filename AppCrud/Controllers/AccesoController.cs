@@ -32,7 +32,9 @@ namespace AppCrud.Controllers
                 {           
                     if (empleadoEncontrado.Activo)
                     {
+                        HttpContext.Session.SetInt32("IdUsuarioLogueado", empleadoEncontrado.idEmpleado);
                         return RedirectToAction("Lista", "Empleado");
+                        
                     }
                     else
                     {

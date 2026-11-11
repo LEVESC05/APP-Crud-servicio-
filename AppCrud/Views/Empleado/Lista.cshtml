@@ -1,12 +1,23 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@* For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860 *@
 @{
 }
- @model List<AppCrud.Models.Empleado>;
+@using System.Security.Claims
+@{
+    var idSesion = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
+@model List<AppCrud.Models.Empleado>;
+
 <h1>Lista de Empleados</h1>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger mb-3">@TempData["Error"]</div>
+}
+
 <a asp-controller="Empleado" asp-action="Nuevo" class="btn btn-success mb-3">Nuevo</a>
-<a  asp-controller="Empleado" asp-action="CerrarSesion" class="btn btn-danger">Cerrar Sesión</a>
+<a asp-controller="Empleado" asp-action="CerrarSesion" class="btn btn-danger">Cerrar Sesión</a>
+
 <table class="table">
     <thead>
         <tr>
@@ -15,6 +26,7 @@
             <th>Correo</th>
             <th>Fecha de contrato</th>
             <th>Activo</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -26,16 +38,20 @@
                 <td>@item.correo</td>
                 <td>@item.FechaContrato.ToString("yyyy-MM-dd")</td>
                 <td>@(item.Activo ? "Sí" : "No")</td>
-<td>
-                    <a asp-controller="Empleado" asp-action="Editar" 
-asp-route-id="@item.idEmpleado" class="btn btn-primary">Editar</a>
+                <td>
+                    <a asp-controller="Empleado" asp-action="Editar" asp-route-id="@item.idEmpleado" class="btn btn-primary">Editar</a>
 
-                    <a asp-controller="Empleado" asp-action="Eliminar"                        
-                       asp-route-id="@item.idEmpleado" class="btn btn-primary" onclick= "return confirmar()" 
-style="background-color: red; border-color: red;">Eliminar</a>
+                    @if (idSesion != null && idSesion == item.idEmpleado.ToString())
+                    {
+                        <span class="btn btn-secondary disabled">Tu cuenta</span>
+                    }
+                    else
+                    {
+                        <a asp-controller="Empleado" asp-action="Eliminar"
+                           asp-route-id="@item.idEmpleado" class="btn btn-primary" onclick="return confirmar()" style="background-color: red; border-color: red;">Eliminar</a>
+                    }
                 </td>
             </tr>
-            
         }
     </tbody>
 </table>

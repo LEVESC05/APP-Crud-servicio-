@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Services\\Migrations\\20261111022638_contrase\u00F1aMasLarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppCrud.Services\\Migrations\\20261111022638_contrase\u00F1aMasLarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud.services\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|solutionrelative:appcrud.services\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\views\\empleado\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\views\\empleado\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\views\\empleado\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\views\\empleado\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\views\\empleado\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\views\\empleado\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00FD7BDE-6C4B-4895-A389-367464665119}|AppCrud.Models\\AppCrud.Models.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud.models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00FD7BDE-6C4B-4895-A389-367464665119}|AppCrud.Models\\AppCrud.Models.csproj|solutionrelative:appcrud.models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\views\\empleado\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\views\\empleado\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\views\\empleado\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\views\\empleado\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{00FD7BDE-6C4B-4895-A389-367464665119}|AppCrud.Models\\AppCrud.Models.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud.models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00FD7BDE-6C4B-4895-A389-367464665119}|AppCrud.Models\\AppCrud.Models.csproj|solutionrelative:appcrud.models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud.services\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|solutionrelative:appcrud.services\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud.services\\migrations\\20261110213935_creacionclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,12 +51,12 @@
       "RelativeMoniker": "D:0:0:{00FD7BDE-6C4B-4895-A389-367464665119}|AppCrud.Models\\AppCrud.Models.csproj|solutionrelative:appcrud.models\\appcrud.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{ECDCAFCC-2C67-A98B-A71E-7BC9CA5F3E94}|AppCrud\\AppCrud.csproj|solutionrelative:appcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|c:\\apps servicio social\\appcrud\\app-crud-servicio-\\appcrud.services\\migrations\\20261111022638_contrase\u00F1amaslarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2052B86D-8AC2-49F2-988E-267998D5C903}|AppCrud.Services\\AppCrud.Services.csproj|solutionrelative:appcrud.services\\migrations\\20261111022638_contrase\u00F1amaslarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +66,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "AppCrud\\Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "AppCrud\\Controllers\\AccesoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T20:07:49.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Lista.cshtml",
+              "RelativeDocumentMoniker": "AppCrud\\Views\\Empleado\\Lista.cshtml",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Lista.cshtml",
+              "RelativeToolTip": "AppCrud\\Views\\Empleado\\Lista.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-10T19:57:20.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AppCrud\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AppCrud\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T22:06:13.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "AppCrud\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "AppCrud\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwEQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T22:06:04.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Program.cs",
+              "RelativeDocumentMoniker": "AppCrud\\Program.cs",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Program.cs",
+              "RelativeToolTip": "AppCrud\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T20:34:15.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "AppCrud\\Views\\Acceso\\Login.cshtml",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "AppCrud\\Views\\Acceso\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-10T20:18:22.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Editar.cshtml",
+              "RelativeDocumentMoniker": "AppCrud\\Views\\Empleado\\Editar.cshtml",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Editar.cshtml",
+              "RelativeToolTip": "AppCrud\\Views\\Empleado\\Editar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-10T19:57:06.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "AppCrud\\Views\\Empleado\\Nuevo.cshtml",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Nuevo.cshtml",
+              "RelativeToolTip": "AppCrud\\Views\\Empleado\\Nuevo.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-10T19:57:22.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "20261111022638_contrase\u00F1aMasLarga.cs",
               "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Services\\Migrations\\20261111022638_contrase\u00F1aMasLarga.cs",
               "RelativeDocumentMoniker": "AppCrud.Services\\Migrations\\20261111022638_contrase\u00F1aMasLarga.cs",
@@ -78,12 +182,24 @@
               "RelativeToolTip": "AppCrud.Services\\Migrations\\20261111022638_contrase\u00F1aMasLarga.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T02:26:38.832Z",
+              "WhenOpened": "2026-11-11T02:26:38.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "AppCrud.Models\\Empleado.cs",
+              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\Empleado.cs",
+              "RelativeToolTip": "AppCrud.Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T22:19:09.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Services\\Data\\AppDBContext.cs",
               "RelativeDocumentMoniker": "AppCrud.Services\\Data\\AppDBContext.cs",
@@ -91,107 +207,7 @@
               "RelativeToolTip": "AppCrud.Services\\Data\\AppDBContext.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAuwBoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T02:22:11.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\EmpleadoController.cs",
-              "RelativeDocumentMoniker": "AppCrud\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "AppCrud\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAzwBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T22:06:04.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Lista.cshtml",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Lista.cshtml",
-              "RelativeDocumentMoniker": "AppCrud\\Views\\Empleado\\Lista.cshtml",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Lista.cshtml",
-              "RelativeToolTip": "AppCrud\\Views\\Empleado\\Lista.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T19:57:20.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccesoController.cs",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\AccesoController.cs",
-              "RelativeDocumentMoniker": "AppCrud\\Controllers\\AccesoController.cs",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\AccesoController.cs",
-              "RelativeToolTip": "AppCrud\\Controllers\\AccesoController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwB0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T20:07:49.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Editar.cshtml",
-              "RelativeDocumentMoniker": "AppCrud\\Views\\Empleado\\Editar.cshtml",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Editar.cshtml",
-              "RelativeToolTip": "AppCrud\\Views\\Empleado\\Editar.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T19:57:06.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Acceso\\Login.cshtml",
-              "RelativeDocumentMoniker": "AppCrud\\Views\\Acceso\\Login.cshtml",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Acceso\\Login.cshtml",
-              "RelativeToolTip": "AppCrud\\Views\\Acceso\\Login.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBwAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T20:18:22.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AppCrud\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AppCrud\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T22:06:13.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "AppCrud.Models\\Empleado.cs",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\Empleado.cs",
-              "RelativeToolTip": "AppCrud.Models\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T22:19:09.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Nuevo.cshtml",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Nuevo.cshtml",
-              "RelativeDocumentMoniker": "AppCrud\\Views\\Empleado\\Nuevo.cshtml",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Views\\Empleado\\Nuevo.cshtml",
-              "RelativeToolTip": "AppCrud\\Views\\Empleado\\Nuevo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T19:57:22.71Z"
+              "WhenOpened": "2026-11-11T02:22:11.98Z"
             },
             {
               "$type": "Document",
@@ -207,18 +223,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Program.cs",
-              "RelativeDocumentMoniker": "AppCrud\\Program.cs",
-              "ToolTip": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\Program.cs",
-              "RelativeToolTip": "AppCrud\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T20:34:15.943Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "AppCrud.Models.csproj",
               "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud.Models\\AppCrud.Models.csproj",
@@ -231,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\APPS SERVICIO SOCIAL\\AppCrud\\APP-Crud-servicio-\\AppCrud\\appsettings.json",
               "RelativeDocumentMoniker": "AppCrud\\appsettings.json",

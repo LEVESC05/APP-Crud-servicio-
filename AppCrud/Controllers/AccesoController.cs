@@ -1,56 +1,80 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using AppCrud.Models;
-using AppCrud.Data;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
+﻿using AppCrud.Services;
+using AppCrud.ViewModels;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace AppCrud.Controllers
-
 {
     public class AccesoController : Controller
     {
-        private readonly AppDBContext _appDBContext;
-        public AccesoController(AppDBContext appDBContext)
+        private readonly IAutenticacionService _autenticacionService;
+
+        public AccesoController(IAutenticacionService autenticacionService)
         {
-            _appDBContext = appDBContext;
+            _autenticacionService = autenticacionService;
         }
+
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Login()
         {
+            if (User.Identity?.IsAuthenticated == true)
+            {
+                return RedirectToAction("Lista", "Empleado");
+            }
             return View();
         }
-        [HttpPost]
-        public async Task<IActionResult> Login(Empleado empleado)
-        {           
-            Empleado empleadoEncontrado = await _appDBContext.Empleados.FirstOrDefaultAsync(e => e.correo == empleado.correo);
 
-            if (empleadoEncontrado != null)
-            {        
-                var passwordHasher = new PasswordHasher<Empleado>();
-                var resultado = passwordHasher.VerifyHashedPassword(empleadoEncontrado, empleadoEncontrado.Clave, empleado.Clave);
-                if (resultado == PasswordVerificationResult.Success)
-                {           
-                    if (empleadoEncontrado.Activo)
-                    {
-                        HttpContext.Session.SetInt32("IdUsuarioLogueado", empleadoEncontrado.idEmpleado);
-                        return RedirectToAction("Lista", "Empleado");
-                        
-                    }
-                    else
-                    {
-                        ModelState.AddModelError(string.Empty, "El usuario no esta activo");
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, "Correo o contraseña incorrectos");
-                }
+        [AllowAnonymous]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginVM login)
+        {           
+            if (!ModelState.IsValid)
+            {
+                return View(login);
             }
-            else
+
+            var empleado = await _autenticacionService
+                .ValidarUsuario(login.Correo, login.Clave);
+
+            if (empleado == null)
             {
                 ModelState.AddModelError(string.Empty, "Correo o contraseña incorrectos");
+                return View(login);
             }
-            return View(empleado);
+
+            var claims = new List<Claim>
+            {
+                new Claim(
+                    ClaimTypes.NameIdentifier,
+                    empleado.idEmpleado.ToString()),
+                new Claim(ClaimTypes.Name, empleado.Nombre),
+                new Claim(ClaimTypes.Email, empleado.correo)
+            };
+
+            var identidad = new ClaimsIdentity(
+                claims,
+                CookieAuthenticationDefaults.AuthenticationScheme);
+            var usuario = new ClaimsPrincipal(identidad);
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                usuario);
+            return RedirectToAction("Lista", "Empleado");
+        }
+
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction(nameof(Login));
         }
     }
 }

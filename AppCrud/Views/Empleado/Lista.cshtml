@@ -16,7 +16,9 @@
 }
 
 <a asp-controller="Empleado" asp-action="Nuevo" class="btn btn-success mb-3">Nuevo</a>
-<a asp-controller="Empleado" asp-action="CerrarSesion" class="btn btn-danger">Cerrar Sesión</a>
+<form asp-controller="Acceso" asp-action="Logout" method="post" class="d-inline">
+    <button type="submit" class="btn btn-danger mb-3">Cerrar Sesión</button>
+</form>
 
 <table class="table">
     <thead>

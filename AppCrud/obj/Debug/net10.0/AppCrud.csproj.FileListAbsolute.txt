@@ -468,10 +468,10 @@ C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\sta
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\staticwebassets.development.json
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\swae.build.ex.cache
-C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\AppCrud.csproj.Up2Date
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\AppCrud.dll
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\refint\AppCrud.dll
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\AppCrud.pdb
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\AppCrud.genruntimeconfig.cache
 C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\ref\AppCrud.dll
+C:\APPS SERVICIO SOCIAL\AppCrud\APP-Crud-servicio-\AppCrud\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCrud.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a6b7fcd143194cc065c2742cfb71c8006832738")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9ae018de5a1c476df1fc8841db597eb54d6bc33")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCrud.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCrud.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,90 +1,130 @@
-﻿using AppCrud.Data;
+﻿using AppCrud.Services;
 using AppCrud.Models;
-using Microsoft.AspNetCore.Identity;
+using AppCrud.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
 
 namespace AppCrud.Controllers
 {
+    [Authorize]
     public class EmpleadoController : Controller
     {
-        private readonly AppDBContext _appDBContext;
-        public EmpleadoController(AppDBContext appDBContext)
+        private readonly IEmpleadoService _empleadoService;
+
+        public EmpleadoController(IEmpleadoService empleadoService)
         {
-            _appDBContext = appDBContext;
+            _empleadoService = empleadoService;
         }
 
         [HttpGet]
         public async Task<IActionResult> Lista()
         {
-            List<Empleado> lista = await _appDBContext.Empleados.ToListAsync();
+            List<Empleado> lista = await _empleadoService.ObtenerTodos();
             return View(lista);
         }
 
         [HttpGet]
         public IActionResult Nuevo()
         {
-            return View();
+            return View(new EmpleadoVM());
         }
 
         [HttpPost]
-        public async Task<IActionResult> Nuevo(Empleado empleado)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Nuevo(EmpleadoVM empleadoVM)
         {
-            var passwordHasher = new PasswordHasher<Empleado>();
-            empleado.Clave = passwordHasher.HashPassword(empleado, empleado.Clave);
-            await _appDBContext.Empleados.AddAsync(empleado);
-            await _appDBContext.SaveChangesAsync();
+            if (string.IsNullOrWhiteSpace(empleadoVM.Clave))
+            {
+                ModelState.AddModelError(
+                    nameof(empleadoVM.Clave),
+                    "La contraseña es obligatoria.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(empleadoVM);
+            }
+
+            var empleado = new Empleado
+            {
+                Nombre = empleadoVM.Nombre,
+                correo = empleadoVM.correo,
+                Clave = empleadoVM.Clave!,
+                FechaContrato = empleadoVM.FechaContrato,
+                Activo = empleadoVM.Activo
+            };
+
+            await _empleadoService.Crear(empleado);
             return RedirectToAction(nameof(Lista));
         }
 
         [HttpGet]
         public async Task<IActionResult> Editar(int id)
         {
-            Empleado empleado = await _appDBContext.Empleados.FirstAsync(e => e.idEmpleado == id);
-            return View(empleado);
+            Empleado? empleado = await _empleadoService.ObtenerPorId(id);
+
+            if (empleado == null)
+            {
+                return NotFound();
+            }
+
+            var empleadoVM = new EmpleadoVM
+            {
+                idEmpleado = empleado.idEmpleado,
+                Nombre = empleado.Nombre,
+                correo = empleado.correo,
+                FechaContrato = empleado.FechaContrato,
+                Activo = empleado.Activo
+            };
+
+            return View(empleadoVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(Empleado empleado)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Editar(EmpleadoVM empleadoVM)
         {
-            if (!string.IsNullOrEmpty(empleado.Clave))
+            if (!ModelState.IsValid)
             {
-                var passwordHasher = new PasswordHasher<Empleado>();
-                empleado.Clave = passwordHasher.HashPassword(empleado, empleado.Clave);
+                return View(empleadoVM);
             }
-            else
+
+            var empleado = new Empleado
             {
-                var empleadoExistente = await _appDBContext.Empleados.AsNoTracking().FirstAsync(e => e.idEmpleado == empleado.idEmpleado);
-                empleado.Clave = empleadoExistente.Clave;
+                idEmpleado = empleadoVM.idEmpleado,
+                Nombre = empleadoVM.Nombre,
+                correo = empleadoVM.correo,
+                Clave = empleadoVM.Clave ?? string.Empty,
+                FechaContrato = empleadoVM.FechaContrato,
+                Activo = empleadoVM.Activo
+            };
+
+            bool actualizado = await _empleadoService.Editar(
+                empleadoVM.idEmpleado,
+                empleado);
+
+            if (!actualizado)
+            {
+                return NotFound();
             }
-            _appDBContext.Empleados.Update(empleado);
-            await _appDBContext.SaveChangesAsync();
+
             return RedirectToAction(nameof(Lista));
         }
 
         [HttpGet]
         public async Task<IActionResult> Eliminar(int id)
         {
-           
-            int? idSesion = HttpContext.Session.GetInt32("IdUsuarioLogueado");
+            string? idUsuario = User.FindFirst(
+                System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
-            if (idSesion != null && idSesion == id)
+            if (idUsuario == id.ToString())
             {
                 TempData["Error"] = "No te puedes eliminar a ti mismo";
                 return RedirectToAction(nameof(Lista));
             }
 
-            Empleado empleado = await _appDBContext.Empleados.FirstAsync(e => e.idEmpleado == id);
-            _appDBContext.Empleados.Remove(empleado);
-            await _appDBContext.SaveChangesAsync();
-            return RedirectToAction(nameof(Lista));
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> CerrarSesion()
-        {
-            return RedirectToAction("Login", "Acceso");
+            bool eliminado = await _empleadoService.Eliminar(id);
+            return eliminado ? RedirectToAction(nameof(Lista)) : NotFound();
         }
     }
 }

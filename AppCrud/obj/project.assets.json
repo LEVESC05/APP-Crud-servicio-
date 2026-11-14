@@ -1099,7 +1099,10 @@
         },
         "runtime": {
           "bin/placeholder/AppCrud.Services.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

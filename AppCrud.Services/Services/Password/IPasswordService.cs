@@ -1,4 +1,4 @@
-namespace AppCrud.Services
+namespace AppCrud.Services.Services.Password
 {
     public interface IPasswordService
     {

@@ -1,13 +1,17 @@
 using AppCrud.Data;
 using AppCrud.Models;
+using AppCrud.Services.Services.Password;
 using Microsoft.EntityFrameworkCore;
 
-namespace AppCrud.Services
+namespace AppCrud.Services.Services.Empleado
 {
+    using Empleado = AppCrud.Models.Empleado;
+
     public class EmpleadoService : IEmpleadoService
     {
         private readonly AppDBContext _appDBContext;
         private readonly IPasswordService _passwordService;
+
         public EmpleadoService(
             AppDBContext appDBContext,
             IPasswordService passwordService)
@@ -15,15 +19,18 @@ namespace AppCrud.Services
             _appDBContext = appDBContext;
             _passwordService = passwordService;
         }
+
         public async Task<List<Empleado>> ObtenerTodos()
         {
             return await _appDBContext.Empleados.ToListAsync();
         }
+
         public async Task<Empleado?> ObtenerPorId(int id)
         {
             return await _appDBContext.Empleados
                 .FirstOrDefaultAsync(empleado => empleado.idEmpleado == id);
         }
+
         public async Task Crear(Empleado empleado)
         {
             empleado.Clave = _passwordService.HashPassword(empleado.Clave);
@@ -31,6 +38,7 @@ namespace AppCrud.Services
             await _appDBContext.Empleados.AddAsync(empleado);
             await _appDBContext.SaveChangesAsync();
         }
+
         public async Task<bool> Editar(int id, Empleado empleado)
         {
             Empleado? empleadoGuardado = await ObtenerPorId(id);
@@ -54,6 +62,7 @@ namespace AppCrud.Services
             await _appDBContext.SaveChangesAsync();
             return true;
         }
+
         public async Task<bool> Eliminar(int id)
         {
             Empleado? empleado = await ObtenerPorId(id);
@@ -62,6 +71,7 @@ namespace AppCrud.Services
             {
                 return false;
             }
+
             _appDBContext.Empleados.Remove(empleado);
             await _appDBContext.SaveChangesAsync();
             return true;

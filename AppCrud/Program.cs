@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using AppCrud.Data;
-using AppCrud.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using AppCrud.Services.Services.Empleado;
+using AppCrud.Services.Services.Authentication;
+using AppCrud.Services.Services.Password;
 
 var builder = WebApplication.CreateBuilder(args);
 

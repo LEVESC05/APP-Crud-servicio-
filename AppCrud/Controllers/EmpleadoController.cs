@@ -1,8 +1,8 @@
-﻿using AppCrud.Services;
-using AppCrud.Models;
+﻿using AppCrud.Models;
 using AppCrud.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using AppCrud.Services.Services.Empleado;
 
 namespace AppCrud.Controllers
 {
